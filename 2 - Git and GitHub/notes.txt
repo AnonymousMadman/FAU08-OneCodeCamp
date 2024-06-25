@@ -11,6 +11,7 @@ A - Added
 git init
 
 # Git 3 Stage Architecture
+
 # Check the status
 git status
 
@@ -19,3 +20,14 @@ git add .
 
 # Create a commit
 git commit -m "This is the description"
+
+# Branching
+
+# List all branches
+git branch -a
+
+# Create a new branch
+git branch [branch-name]
+
+# Switch into a different branch
+git switch [branch-name]
